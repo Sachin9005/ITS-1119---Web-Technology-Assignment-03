@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+}
+.green{
+    position: absolute;
+    right: 0;
+    background-color: green;
+}
+.orange{
+    position: absolute;
+    bottom: 0;
+    background-color: orange;
+}
+.pink{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: pink;
+}
+
+.box::before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 55%;
+    background: white;
+    border-radius: 50%;
+    top: 25%;
+    left: 30%;
+}
+
+.box::after {
+    position: absolute;
+    content: "";
+    width: 14%;
+    height: 25%;
+    background: red;
+    top: 40% ;
+    left:38%;
+}
+
+.center-box {
+    position: absolute;
+    width: 20%;
+    height: 35%;
+    background: white;
+    top: 32%;
+    left: 40%;
+}
+
+.center-circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: red;
+    border-radius: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+
