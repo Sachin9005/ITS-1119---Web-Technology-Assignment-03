@@ -16,7 +16,6 @@
     width: 50%;
 }
 
-
 .red{
     position: absolute;
     background-color: red;
@@ -166,4 +165,5 @@
     left: 50%;
     border-top-right-radius: 100%;
 }
+
 
