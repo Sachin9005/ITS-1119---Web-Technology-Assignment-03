@@ -1,0 +1,35 @@
+.container {
+    height:810px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 2fr);   
+}
+
+.container div {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#one{ background-color: red;}
+
+#two{background-color: green;}
+
+#three{background-color: orange;}
+
+#four{background-color: purple;}
+
+#five{background-color: rgb(155, 7, 142);}
+
+#six{background-color: blue;}
+
+#seven{background-color: brown;}
+
+#eight{background-color: rgb(218, 37, 208);}
+
+#nine{background-color: rgb(90, 6, 90);}
+
+#ten{background-color: yellow;}
+
+#eleven{background-color: gray;}
+
+#towel{background-color: aqua;}
